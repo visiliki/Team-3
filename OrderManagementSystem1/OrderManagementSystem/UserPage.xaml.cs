@@ -13,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.Entity.Migrations;
+
 
 namespace OrderManagementSystem
 {
@@ -45,43 +47,55 @@ namespace OrderManagementSystem
 
         private void AddOrderButton_Click(object sender, RoutedEventArgs e)
         {
-
             try
             {
+                int productId = int.Parse(txt3.Text);
 
-                Product product = new Product();
-                Order order = new Order();
-                int x = int.Parse(txt3.Text);
-                Products1 p2 = new Products1();
+                Product p1 = new Product();
+                Order o1 = new Order();
 
-                p2 = Hi().FirstOrDefault(o => o.ProductId == x);
+                p1 = DB.Products.FirstOrDefault(p => p.ProductId == productId);
 
-                MessageBox.Show(p2.Quantity.ToString());
-
-                p2.Quantity = p2.Quantity + 1;
-
-                show2();
-
+                if (p1 == null)
+                {
+                    MessageBox.Show("product isn't here.");
+                    return;
+                }
 
 
-                Hi().Add(p2);
+
+                o1 = DB.Orders.FirstOrDefault(o => o.ProductId == productId);
+
+                if (o1 != null)
+                {
+                    o1.Quantity += 1;
+                    DB.Orders.AddOrUpdate(o1);
+                }
+
+                else
+                {
+                    Order o2 = new Order();
+                    o2.ProductId = productId; 
+                    o2.Quantity = 1;
+
+                    DB.Orders.Add(o2);
+
+                    Product p2 = new Product();
+                    p2.ProductName = p1.ProductName;
+
+                    DB.Products.Add(p2);
+                }
 
                 DB.SaveChanges();
                 show2();
-
             }
-
 
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-
-
             }
-
-
-
         }
+
 
 
         public List<Products1> Hi()
@@ -112,10 +126,10 @@ namespace OrderManagementSystem
 
                         ss.Add(new Products1
                         {
-                            OrderId = order.OrderId,
                             ProductId = p1.ProductId,
+                            Product = p1.ProductName,
                             Quantity = order.Quantity,
-                            Product = p1.ProductName
+                            OrderId = order.OrderId
 
                         });
 
@@ -132,14 +146,44 @@ namespace OrderManagementSystem
 
         private void DeleteOrderBut_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                int productId = int.Parse(txt3.Text);
 
-            Order order = new Order();
-            var seleted = OrderList.SelectedItem as Order;
+                Product p1 = new Product();
+                Order o1 = new Order();
 
-            order = DB.Orders.Remove(seleted);
+                p1 = DB.Products.FirstOrDefault(p => p.ProductId == productId);
 
-            DB.SaveChanges();
-            show2();
+                if (p1 == null)
+                {
+                    MessageBox.Show("product isn't here.");
+                    return;
+                }
+                else if (p1 != null)
+                {
+
+
+                    o1 = DB.Orders.FirstOrDefault(o => o.ProductId == p1.ProductId);
+
+                    if (o1 != null)
+                    {
+                        DB.Orders.Remove(o1);
+                        DB.Products.Remove(p1);
+                        DB.SaveChanges();
+                        show2();
+
+                    }
+                }
+
+
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
     }
 
@@ -147,14 +191,12 @@ namespace OrderManagementSystem
 
     public class Products1
     {
-        public int OrderId { get; set; }
 
         public int ProductId { get; set; }
-
-        public int Quantity { get; set; }
-
         public string Product { get; set; }
 
+        public int Quantity { get; set; }
+        public int OrderId { get; set; }
 
 
     }
