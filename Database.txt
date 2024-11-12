@@ -1,0 +1,29 @@
+DROP TABLE IF EXISTS Orders;  
+DROP TABLE IF EXISTS Products; 
+
+USE OMS;
+
+CREATE TABLE Products (
+    ProductId INT PRIMARY KEY  identity,
+    ProductName VARCHAR(100) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE Orders (
+    OrderId INT PRIMARY KEY identity ,
+    ProductId INT,
+    FOREIGN KEY (ProductId) REFERENCES Products(ProductId),
+    Quantity INT NOT NULL
+);
+
+INSERT INTO Products ( ProductName, Price) VALUES
+('Milk', 56.9),
+('Meat', 11.6),
+('egg', 19.2),
+( 'fish', 18.5),
+( 'tomato', 15.6),
+( 'rice', 14.5),
+('food', 55.6);
+  
+
+SELECT * FROM Products;
