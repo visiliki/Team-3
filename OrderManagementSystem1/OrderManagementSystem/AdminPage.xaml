@@ -1,0 +1,45 @@
+﻿<Page x:Class="OrderManagementSystem.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:OrderManagementSystem"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminPage">
+
+    <Grid  Background="AntiqueWhite">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="ProductsGrid" Grid.Column="1" Margin="10,49,10,27" SelectionChanged="selected1">
+        </DataGrid>
+
+        <Grid Grid.Column="0">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="11*"/>
+                <RowDefinition Height="19*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel VerticalAlignment="Center" Height="76">
+                <Label Margin="80 0 0 0" HorizontalAlignment="Left" Grid.Row="0" Content="Name" Width="50"  RenderTransformOrigin="0.479,0.525"/>
+                <TextBox Grid.Row="0" Height="50" Width= "250" Name="txt1" ></TextBox>
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Margin="0,30,0,0">
+                <Label Margin="80 0 0 0" HorizontalAlignment="Left" Content="Price" Width="50" RenderTransformOrigin="0.479,0.525"/>
+                <TextBox Grid.Row="1" Height="50" Width= "250" x:Name="txt2"  />
+
+            </StackPanel>
+        </Grid>
+
+
+        <TextBlock x:Name="ProductsListTxtBoxForAdmin" Grid.Column="1" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Products List" VerticalAlignment="Top" Height="39" Width="140" FontSize="25"/>
+        <Button Click="add_btn" Content="Add" HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top"  Background="#FFBE7C00" FontSize="18" Width="48"/>
+        <Button Click="delete_btn"  Content="Delete" HorizontalAlignment="Left" Margin="108,352,0,0" VerticalAlignment="Top"  Background="#FFBE7C00" FontSize="18"/>
+    </Grid>
+</Page>

@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\admin\\desktop\\team 3\\ordermanagementsystem\\ordermanagementsystem\\userpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\userpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\ordermanagementsystem\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\ordermanagementsystem\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\ordermanagementsystem\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\ordermanagementsystem\\welcomepqge.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\welcomepqge.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\ordermanagementsystem\\welcomepqge.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\welcomepqge.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\ordermanagementsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\ordermanagementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF847075-6010-4C13-B2BD-958A7D50A324}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\UserPage.xaml.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\UserPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\UserPage.xaml.cs",
+              "RelativeToolTip": "OrderManagementSystem\\UserPage.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:56:16.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\UserPage.xaml",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\UserPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\UserPage.xaml",
+              "RelativeToolTip": "OrderManagementSystem\\UserPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T07:49:17.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\AdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\AdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\AdminPage.xaml.cs",
+              "RelativeToolTip": "OrderManagementSystem\\AdminPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:33:10.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\AdminPage.xaml",
+              "RelativeToolTip": "OrderManagementSystem\\AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T07:49:02.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WelcomePqge.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\WelcomePqge.xaml.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\WelcomePqge.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\WelcomePqge.xaml.cs",
+              "RelativeToolTip": "OrderManagementSystem\\WelcomePqge.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAArwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:02:17.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WelcomePqge.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\WelcomePqge.xaml",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\WelcomePqge.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\WelcomePqge.xaml",
+              "RelativeToolTip": "OrderManagementSystem\\WelcomePqge.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T07:47:32.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\MainWindow.xaml",
+              "RelativeToolTip": "OrderManagementSystem\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T07:46:55.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Team 3\\OrderManagementSystem\\OrderManagementSystem\\MainWindow.xaml.cs",
+              "RelativeToolTip": "OrderManagementSystem\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:46:55.088Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
